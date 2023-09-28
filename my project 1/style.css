@@ -1,0 +1,237 @@
+*{
+    margin:0;
+    padding: 0px;
+}
+.main{
+    width: 100%;
+    background-image:url("2.jpg");
+    background-position:center;
+    background-size: cover;
+    height:105vh;
+}
+.navbar{
+    width: 1250px;
+    height:75px;
+    margin:none ;
+    text-decoration: orangered;
+}
+
+.icon{
+    width: 350px;
+    float:left;
+    height: 70px;
+}
+.logo{
+    color:orangered;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left:80px;
+    float:left;
+    padding-top: 10px;
+
+}
+.logo:hover{
+    color:chartreuse;
+}
+
+.menu{
+    width: 400px;
+    float:left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+ul li{
+    list-style-type: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:orangered;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:chartreuse ;
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left:1050px;
+    }
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: orangered;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: greenyellow;
+}
+.content{
+    width: 1500px;
+    height: auto;
+    margin-left: 100px;
+    color:chartreuse;
+    position: relative;
+}
+.content par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 10px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background-color:orangered;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 0.4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color:white;
+    transition:.3s ease ;
+
+
+}
+.content:hover{
+      color: chartreuse;
+}
+.content span{
+    color:orangered;
+    font-size: 60px;
+}
+.from{
+    width: 250px;
+    height: 380;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top:-20px;
+    left: 970px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.from h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:orangered;
+    font-size: 22px;
+    background-color:azure;
+    border-radius:10px ;
+    margin:2px ;
+    padding: 8px;
+
+}
+.from input{
+    width: 240px;
+    height: 35px;
+    background:transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:orangered;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif ;
+
+
+}
+.from input:focus{
+    outline: none;
+}
+::placeholder{
+    color:chartreuse;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background:orangered;
+    border: nnone;
+    margin-top: 30px;
+    font-size:18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:orange;
+    transition: 0.4s ease;
+
+
+}
+.btnn:hover{
+    background:whitesmoke;
+    color:chartreuse;
+}
+.btnn a{
+    text-decoration: none;
+    color:chartreuse;
+    font-weight: bold;
+    
+}
+.from .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top:20px;
+    text-align: center;
+}
+.from.link a{
+    text-decoration: none;
+    color:chartreuse;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
